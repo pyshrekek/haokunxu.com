@@ -1,0 +1,19 @@
+/* Define standard variables and values for website */
+$darkpurple: #3D348B;
+$lightpurple: #7678ED;
+$mango: #F7B801;
+$tangerine: #F18701;
+$persimmon: #F35B04;
+$fontsize: 16px;
+$fontfamily: 'JetBrains Mono';
+
+a, body {
+    background: $darkpurple;
+    color: $mango;
+    font-size: $fontsize;
+    font-family: $fontfamily;
+}
+
+header {
+    background: $lightpurple;
+}
