@@ -1,12 +1,8 @@
 /* Define standard variables and values for website */
 a, body {
-  background: #3D348B;
-  color: #F7B801;
+  background: #420D69;
+  color: #dddddd;
   font-size: 16px;
   font-family: "JetBrains Mono";
-}
-
-header {
-  background: #7678ED;
 }
 /*# sourceMappingURL=styles.css.map */
