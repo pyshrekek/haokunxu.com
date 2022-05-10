@@ -9,4 +9,8 @@ a, body {
 header {
   background: #7678ED;
 }
+
+.center {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
