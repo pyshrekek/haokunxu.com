@@ -1,21 +1,13 @@
 <template>
     <div>
-        <h2>Home</h2>
-        <p>hello</p>
+        <h2 class="home-title">Haokun Xu</h2>
+        <p class="home-text">Junior at Stuyvesant High School</p>
+        <p class="home-text">Passionate about robotics, CNC manufacturing, </p>
     </div>
 </template>
 
 <script setup>
-
 </script>
 
 <style scoped>
-    h2 {
-        margin-bottom: 20px;
-        font-size: 40px;
-    }
-    p {
-        
-
-    }
 </style>
