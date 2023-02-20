@@ -17,8 +17,8 @@ body {
 @layer components {
     .home-btn {
         font-size: 2.5rem;
-        
-        @apply font-bold hover:text-5xl ease-in-out duration-200
+        line-height: 1;
+        @apply font-bold hover:text-5xl hover:text-violet-400 ease-in-out duration-200
     }
     .nav-btn {
         @apply mx-auto p-3 pl-5 pr-5 rounded-full border-2 hover:bg-violet-400 hover:text-lg ease-in-out duration-200
