@@ -4,4 +4,12 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         'nuxt-icon',
     ],
+    app: {
+        head: {
+            title: 'Haokun Xu',
+            meta: [
+                { name: 'description', content: 'About Haokun Xu'}
+            ],
+        }
+    }
 })
