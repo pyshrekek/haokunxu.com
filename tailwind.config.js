@@ -8,9 +8,5 @@ module.exports = {
     "./nuxt.config.{js,ts}",
     "./assets/css/*.css"
   ],
-  theme: {
-    extend: {
-    },
-  },
   plugins: [],
 } 

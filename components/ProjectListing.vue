@@ -10,10 +10,4 @@
 </script>
 
 <style scoped>
-    .title {
-
-    }
-    .details {
-
-    }
 </style>

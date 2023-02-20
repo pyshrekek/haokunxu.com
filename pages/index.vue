@@ -8,3 +8,60 @@
 
 <script setup lang="ts">
 </script>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Noto+Sans:wght@500&family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Noto Sans', monospace;
+        color: #f9f8f8;
+    }
+}
+
+body {
+    @apply bg-gray-800
+}
+
+@layer components {
+    .home-btn {
+        font-size: 2.5rem;
+        line-height: 1;
+        @apply font-bold hover:text-5xl hover:text-violet-400 ease-in-out duration-200
+    }
+    .nav-btn {
+        @apply mx-auto p-3 pl-5 pr-5 rounded-full border-2 hover:bg-violet-400 hover:text-lg ease-in-out duration-200
+    }
+    .header {
+        min-height: 100px;
+        @apply shadow-sm bg-gray-800 pt-2 pb-2
+    }
+    .navbar {
+        @apply container mx-auto p-4 flex justify-between
+    }
+    .dark-mode-toggle {
+        @apply p-3 rounded-md h-full
+    }
+    .title {
+        @apply font-bold text-8xl text-center mt-7 mb-7
+    }
+    .home-title {
+        @apply font-bold text-9xl text-center mt-10 mb-20
+    }
+    .home-text {
+        @apply text-center text-2xl
+    }
+    .card {
+        @apply p-3 rounded-md bg-white shadow-md h-full;
+    }
+
+    .display-none {
+        @apply hidden;
+    }
+}
+
+</style>
