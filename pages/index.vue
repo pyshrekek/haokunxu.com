@@ -5,3 +5,6 @@
         <p class="home-text">Interested in robotics, CNC manufacturing, </p>
     </div>
 </template>
+
+<script setup lang="ts">
+</script>
