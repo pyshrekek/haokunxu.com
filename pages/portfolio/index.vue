@@ -1,19 +1,17 @@
-
-
 <template>
     <div>
         <h2 class="title">Portfolio</h2>
-        <p class="text-center pb-10">My portfolio</p>
-        <div class="grid grid-cols-2 gap-10">
-            <div class="grid grid-cols-1 gap-10">
-                <p>Experiences</p>
+        <p class="text-center pb-10">Here's a list of my major projects and experience in various fields.</p>
+        <div class="flex gap-10 flex-wrap justify-center">
+            <div class="grid grid-cols-1 gap-6 min-w-fit">
+                <p class="port-subtitle">Experience</p>
                 <div v-for="item in experiences">
                     <ExperienceList :experience="item" />
                 </div>
             </div>
 
-            <div class="grid grid-cols-1 gap-10">
-                <p>Projects</p>
+            <div class="grid grid-cols-1 gap-6 min-w-fit">
+                <p class="port-subtitle">Projects</p>
                 <div v-for="item in projects">
                     <ProjectListing :project="item" />
                 </div>
@@ -50,7 +48,7 @@ const projects = [
 
 const experiences = [
     {
-        position: "project 1",
+        position: "Vice President",
         time: "2022-present",
         title: "Stuy Fusion",
         desc: "i do robotics",

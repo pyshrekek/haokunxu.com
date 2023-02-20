@@ -76,18 +76,19 @@ body {
     }
 
     .card {
-        border-color: #d4c6ff;
+        border-color: #b1aebb;
         font-family: 'Noto Sans';
-        @apply p-3 rounded-lg h-full border-4 flex gap-4 flex-wrap text-left
+        @apply p-3 rounded-lg h-full border-2 flex gap-4 flex-wrap text-left max-w-[600px] content-center
     }
 
     .card-position {
         font-weight: 300;
-        @apply text-left text-2xl
+        font-size: 16px;
+        @apply text-left
     }
 
     .card-title {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
         line-height: 2.5rem;
         @apply text-left pt-2 pb-2
     }
@@ -98,7 +99,12 @@ body {
     }
 
     .portfolio-img {
-        @apply object-contain w-[300px] h-[300px]
+        @apply object-contain w-[250px] h-[250px]
+    }
+    
+    .port-subtitle {
+        line-height: 3rem;
+        @apply text-center
     }
 
     /* misc */

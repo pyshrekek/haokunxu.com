@@ -2,7 +2,9 @@
     <div>
         <header class="header">
             <nav class="navbar">
-                <NuxtLink to="/" class="home-btn">Home</NuxtLink>
+                <NuxtLink to="/" class="home-btn">
+                    <p>Home</p>
+                </NuxtLink>
                 <ul class="flex gap-4">
                     <li><NuxtLink to="/skills" class="nav-btn">Skills</NuxtLink></li>
                     <li><NuxtLink to="/portfolio" class="nav-btn">Portfolio</NuxtLink></li>
@@ -23,6 +25,8 @@
 <style scoped>
     .router-link-exact-active.nav-btn {
         background-color: #a78bfa;
+        font-size: 1.125rem/* 18px */;
+        line-height: 1.75rem/* 28px */;
     }
     .router-link-exact-active.home-btn {
         color: #a78bfa;

@@ -2,6 +2,9 @@
     <div class="card text-center">
         <img :src="experience.image" alt="alt text stub" class="portfolio-img">
         <div class="flex flex-col">
+            <div class="card-position">
+                <p>{{ experience.position }} | {{ experience.time }}</p>
+            </div>
             <h3 class="card-title">{{ experience.title }}</h3>
             <p class="card-details">{{ experience.desc }}</p>
         </div>
