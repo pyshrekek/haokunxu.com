@@ -83,12 +83,21 @@ body {
     .card {
         border-color: #b1aebb;
         font-family: 'Noto Sans';
-        @apply p-3 rounded-lg h-full border-2 flex gap-4 text-left max-w-[600px] content-center
+        border-radius: 16px;
+        @apply p-3 h-full border-2 flex gap-4 text-left max-w-[650px] max-h-[280px] content-center
     }
 
     .card:hover {
         background-color: #262c38;
         @apply ease-in-out duration-200 border-violet-500
+    }
+
+    .proj-card:hover {
+        @apply border-blue-600
+    }
+
+    .exp-card:hover {
+        @apply border-blue-400
     }
 
     .card-position {

@@ -44,6 +44,12 @@ const skills = [
     },
     {
         time: "2021",
+        title: "Python",
+        desc: "",
+        icon: "logos:python",
+    },
+    {
+        time: "2021",
         title: "TypeScript",
         desc: "",
         icon: "logos:typescript-icon",
@@ -69,7 +75,7 @@ const skills = [
 ];
 
 useHead({
-    title: 'Skills'
+    title: 'Haokun Xu | Skills'
 })
 </script>
 

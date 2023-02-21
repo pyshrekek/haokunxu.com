@@ -6,82 +6,70 @@
             <div class="grid grid-cols-1 gap-6 min-w-fit">
                 <p class="port-subtitle">Experience</p>
                 <div v-for="item in experiences">
-                    <ExperienceList :experience="item" />
+                    <ExperienceList :experience="item"></ExperienceList>
                 </div>
             </div>
 
             <div class="grid grid-cols-1 gap-6 min-w-fit">
                 <p class="port-subtitle">Projects</p>
                 <div v-for="item in projects">
-                    <ProjectListing :project="item" />
+                    <ProjectListing :project="item"></ProjectListing>
                 </div>
+                <div></div>
             </div>
         </div>
 
     </div>
 </template>
 
-<script setup lang="tsx">
+<script setup lang="ts">
 const experiences = [
     {
         position: "Vice President",
         time: "2022-present",
         title: "Stuy Fusion",
-        desc: "I joined FTC 479 Stuy Fusion as a newbie in October of 2021. I am now the Vice President and",
+        desc: "Joined as a member in 2021, elected to vice-president in June 2022. Managed team finances, engineering and programming efforts in the 2022-2023 FTC season. Oversaw and planned trip of >40 students at the Maryland Tech Invitational.",
         image: "./img/479.png",
+        link: "https://fusion479.com/",
     },
     {
         position: "Member",
         time: "2021-present",
         title: "Science Olympiad",
-        desc: "scioly",
+        desc: "Participated in Stuyvesant's award winning Science Olympiad team. Worked on solving engineering challenges such as building bridges and model planes.",
         image: "./img/scioly.png",
+        link: "https://stuyscioly.github.io/",
     },
     {
-        position: "position",
-        time: "time",
-        title: "title",
-        desc: "desc",
-        image: "",
+        position: "Mentor",
+        time: "2023",
+        title: "Desktop Robotics",
+        desc: "mentor",
+        image: "./img/desktopRobotics.jpg",
+        link: "https://deskotics-site.vercel.app/",
     },
 ];
 
 const projects = [
     {
-        position: "project 1",
-        time: "2022-present",
-        title: "Stuy Fusion",
-        desc: "i do robotics",
-        image: "./img/479.png",
-    },
-    {
-        position: "Member",
+        position: "",
         time: "2021-present",
-        title: "Science Olympiad",
-        desc: "scioly",
-        image: "./img/scioly.png",
+        title: "Robot Rendering",
+        desc: "Used Fusion 360 to render photorealistic images of FTC 479\'s robot in the 2021-22 and 2022-23 FTC seasons.",
+        image: "./img/render.png",
+        link: "/portfolio/renders",
     },
     {
-        position: "position",
-        time: "time",
-        title: "title",
-        desc: "desc",
-        image: "",
+        position: "",
+        time: "2022-present",
+        title: "Web Development",
+        desc: "I do webdev",
+        image: "./img/scioly.png",
+        link: "/portfolio/webdev",
     },
 ];
 
 useHead({
-    title: 'Portfolio'
+    title: "Haokun Xu | Portfolio"
 })
 </script>
-
-
-<style scoped>
-.proj-card:hover {
-    color: #a78bfa;
-}
-
-.exp-card:hover {
-    color: #e879f9;
-}
-</style>
