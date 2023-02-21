@@ -22,12 +22,12 @@
 </template>
 
 <script setup lang="tsx">
-const projects = [
+const experiences = [
     {
-        position: "project 1",
+        position: "Vice President",
         time: "2022-present",
         title: "Stuy Fusion",
-        desc: "i do robotics",
+        desc: "I joined FTC 479 Stuy Fusion as a newbie in October of 2021. I am now the Vice President and",
         image: "./img/479.png",
     },
     {
@@ -46,9 +46,9 @@ const projects = [
     },
 ];
 
-const experiences = [
+const projects = [
     {
-        position: "Vice President",
+        position: "project 1",
         time: "2022-present",
         title: "Stuy Fusion",
         desc: "i do robotics",
@@ -76,4 +76,12 @@ useHead({
 </script>
 
 
-<style scoped></style>
+<style scoped>
+.proj-card:hover {
+    color: #a78bfa;
+}
+
+.exp-card:hover {
+    color: #e879f9;
+}
+</style>

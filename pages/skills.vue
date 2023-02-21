@@ -7,7 +7,6 @@
                     <SkillList :skill="item" />
             </div>
         </div>
-
     </div>
 </template>
 
@@ -27,7 +26,7 @@ const skills = [
     },
     {
         time: "2022",
-        title: "Vue",
+        title: "Vue.js",
         desc: "",
         icon: "logos:vue",
     },

@@ -1,5 +1,5 @@
 <template>
-    <div class="card min-w-[600px] max-w-[600px]">
+    <div class="card min-w-[600px] max-w-[600px] skill-card">
         <Icon :name="skill.icon" size="150"></Icon>
         <div class="flex flex-col justify-center">
             <div class="card-position text-2xl">

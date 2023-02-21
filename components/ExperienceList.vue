@@ -1,5 +1,5 @@
 <template>
-    <div class="card text-center">
+    <div class="card text-center exp-card">
         <img :src="experience.image" alt="alt text stub" class="portfolio-img">
         <div class="flex flex-col">
             <div class="card-position">
