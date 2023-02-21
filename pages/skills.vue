@@ -11,29 +11,62 @@
     </div>
 </template>
 
-<script setup lang="tsx">
+<script setup>
 const skills = [
     {
-        position: "project 1",
-        time: "2022-present",
-        title: "Java",
-        desc: "I learned java",
-        icon: "logos:java",
+        time: "2022",
+        title: "Fusion 360",
+        desc: "I use Autodesk Fusion 360 as a way to perform CAM (computer aided machining) and rendering of models.",
+        icon: "Fusion360Icon",
     },
     {
-        position: "Member",
-        time: "2021-present",
+        time: "2022",
+        title: "TailwindCSS",
+        desc: "I use TailwindCSS to speed up web development and to create elegant sites, like this one!",
+        icon: "logos:tailwindcss-icon",
+    },
+    {
+        time: "2022",
+        title: "Vue",
+        desc: "",
+        icon: "logos:vue",
+    },
+    {
+        time: "2021",
         title: "Onshape",
-        desc: "i cad",
+        desc: "I use Onshape frequently to CAD our FTC team's robot to ensure precise measurements and design.",
         icon: "OnshapeIcon",
     },
     {
-        position: "position",
-        time: "time",
-        title: "Fusion",
-        desc: "i render",
-        icon: "Fusion360Icon",
+        time: "2021",
+        title: "Java",
+        desc: "I learned Java as a way to build Android apps. I now use it to code robots in FTC.",
+        icon: "logos:java",
     },
+    {
+        time: "2021",
+        title: "TypeScript",
+        desc: "",
+        icon: "logos:typescript-icon",
+    },
+    {
+        time: "2021",
+        title: "JavaScript",
+        desc: "",
+        icon: "logos:javascript",
+    },
+    {
+        time: "2020",
+        title: "CSS",
+        desc: "",
+        icon: "logos:css-3",
+    },
+    {
+        time: "2020",
+        title: "HTML",
+        desc: "",
+        icon: "logos:html-5",
+    }
 ];
 
 useHead({

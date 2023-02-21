@@ -1,9 +1,12 @@
 <template>
     <div class="card min-w-[600px] max-w-[600px]">
         <Icon :name="skill.icon" size="150"></Icon>
-        <div class="flex flex-col">
+        <div class="flex flex-col justify-center">
+            <div class="card-position text-2xl">
+                <p>{{ skill.time }}</p>
+            </div>
             <h3 class="card-title">{{ skill.title }}</h3>
-            <p class="card-details">{{ skill.desc }}</p>
+            <!-- <p class="card-details">{{ skill.desc }}</p> -->
         </div>
     </div>
 </template>

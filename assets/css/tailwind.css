@@ -78,7 +78,7 @@ body {
     .card {
         border-color: #b1aebb;
         font-family: 'Noto Sans';
-        @apply p-3 rounded-lg h-full border-2 flex gap-4 flex-wrap text-left max-w-[600px] content-center
+        @apply p-3 rounded-lg h-full border-2 flex gap-4 text-left max-w-[600px] content-center
     }
 
     .card-position {
