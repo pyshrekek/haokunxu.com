@@ -6,12 +6,30 @@
 @layer base {
     html {
         font-family: 'Noto Sans', monospace;
+        padding: 0;
+        margin: 0;
+
         @apply text-slate-200
     }
 }
 
 body {
     @apply bg-gray-800
+}
+
+@media screen and (max-width: 600px) {
+     .home-title {
+        @apply text-7xl
+     }
+     .home-text {
+        @apply text-xl
+     }
+}
+
+@media screen and (max-width: 700px) {
+    .skill-card {
+        @apply w-[400px]
+    }
 }
 
 @layer components {
@@ -59,12 +77,16 @@ body {
         @apply font-bold text-9xl mb-10 text-center mt-24
     }
 
+    .home-title:hover {
+        @apply text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ease-in-out duration-200
+    }
+
     .home-subtitle {
         @apply text-2xl text-gray-400 text-center
     }
 
     .home-text {
-        @apply text-center text-2xl mb-3
+        @apply text-center text-2xl mb-3 text-gray-400
     }
 
     .socials {
@@ -80,16 +102,24 @@ body {
         @apply text-8xl text-center pt-7 pb-7
     }
 
+    .subtitle {
+        @apply text-center mb-10 text-2xl
+    }
+
     .card {
         border-color: #b1aebb;
         font-family: 'Noto Sans';
         border-radius: 16px;
-        @apply p-3 h-full border-2 flex gap-4 text-left max-w-[650px] max-h-[280px] content-center
+        @apply p-4 h-full border-2 flex gap-4 text-left max-w-[650px]
     }
 
     .card:hover {
         background-color: #262c38;
         @apply ease-in-out duration-200 border-violet-500
+    }
+
+    .proj-card, .exp-card {
+        @apply min-h-[300px]
     }
 
     .proj-card:hover {
@@ -118,15 +148,21 @@ body {
     }
 
     .portfolio-img {
-        @apply object-contain w-[250px] h-[250px]
+        @apply object-contain w-[250px] h-[250px] place-self-center
     }
     
     .port-subtitle {
         font-size: 2rem;
         @apply text-center font-bold
     }
-    .port-subtitle:hover {
-        @apply text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ease-in-out duration-200
+
+    .skill-card {
+        @apply w-[550px]
+    }
+
+    /* render */
+    .render-img {
+        
     }
 
     /* misc */

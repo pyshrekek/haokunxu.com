@@ -1,7 +1,7 @@
 <template>
     <div class="home-flex">
         <h1 class="home-title">
-            <p class="home-subtitle">Hi. I'm</p>Haokun Xu.
+            <p class="home-subtitle">Hi. I'm</p>Haokun Xu
         </h1>
         <p class="home-text">Junior at Stuyvesant High School</p>
         <p class="home-text">Interested in robotics, machining, 3D printing, graphic design, and web development.</p>
