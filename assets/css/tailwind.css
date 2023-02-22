@@ -19,10 +19,13 @@ body {
 
 @media screen and (max-width: 600px) {
      .home-title {
-        @apply text-7xl
+        @apply text-8xl
      }
      .home-text {
         @apply text-xl
+     }
+     .card {
+        flex-direction: column;
      }
 }
 
