@@ -11,5 +11,10 @@ export default defineNuxtConfig({
                 { name: 'description', content: 'About Haokun Xu'}
             ],
         }
-    }
+    },
+    plugins: [
+        { 
+            src: '~/plugins/vercel.ts', mode: 'client' 
+        }
+    ],
 })

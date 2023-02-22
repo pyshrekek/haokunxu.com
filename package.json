@@ -13,6 +13,7 @@
     "nuxt-icon": "^0.3.2"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.4.1"
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@vercel/analytics": "^0.1.10"
   }
 }
