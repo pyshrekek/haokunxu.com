@@ -66,7 +66,7 @@ const projects = [
         title: "STEM Talks",
         desc: "Presented at and helped organize Stuy Splash, an annual conference for FIRST teams. Presented about CNC Machining for FTC and FRC to a group of ~50 people. Taught mechanical principles and robotics to ~100 fourth graders.",
         image: "./img/stuysplash.png",
-        link: "/webdev",
+        link: "",
     },
     {
         position: "",
