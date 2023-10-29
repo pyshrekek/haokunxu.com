@@ -3,8 +3,8 @@
         <h1 class="home-title">
             <p class="home-subtitle">Hi. I'm</p>Haokun Xu
         </h1>
-        <p class="home-text">Junior at Stuyvesant High School</p>
-        <p class="home-text">Interested in robotics, machining, 3D printing, graphic design, and web development.</p>
+        <p class="home-text">Senior at Stuyvesant High School</p>
+        <p class="home-text">Interested in robotics, computer aided fabrication, graphic design, and web development.</p>
         <div class="socials">
             <a href="https://github.com/pyshrekek" target="_blank" class="socials-icon">
                 <Icon name="fa6-brands:github" size="55"></Icon>
