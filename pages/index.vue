@@ -10,7 +10,7 @@
                     Mathematics</a> </p>
             </p>
             <hr class="gap">
-            <p class="home-text text-left">Interested in robotics, digital fabrication, and embedded systems.</p>
+            <p class="home-text text-left">Interested in robotics, digital fabrication, and microelectronics.</p>
         </div>
         <div class="socials">
             <a href="https://github.com/pyshrekek" target="_blank" class="socials-icon">
@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-    layout: 'home'
-})
+    definePageMeta({
+        layout: 'home'
+    })
 </script>

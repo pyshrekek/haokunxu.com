@@ -63,17 +63,25 @@ body {
 
     /* home page */
     .home-flex {
-        position: fixed;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -40%);
-        @apply flex flex-col text-center
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        transform: translateY(-20%);
+        @apply flex flex-col pt-5 pb-5 items-center self-center
     }
 
     .home-subflex {
         position: relative;
-        width: 80%;
+        width: 50%;
         @apply flex flex-col mb-5 self-center
+    }
+
+    @media (max-width: 1000px) {
+        .home-subflex {
+            position: relative;
+            width: 80%;
+            @apply flex flex-col mb-5 self-center
+        }
     }
 
     .home-title {

@@ -1,19 +1,20 @@
 {
-  "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@types/node": "^18.14.0",
-    "nuxt": "^3.2.2",
-    "nuxt-icon": "^0.3.2"
-  },
-  "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.4.1",
-    "@vercel/analytics": "^0.1.10"
-  }
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "nuxt": "^3.11.2",
+        "vue": "^3.4.21",
+        "vue-router": "^4.3.0",
+        "@nuxtjs/tailwindcss": "^6.4.1",
+        "@vercel/analytics": "^0.1.10",
+        "nuxt-icon": "^0.3.2",
+        "@types/node": "^18.14.0"
+    }
 }
