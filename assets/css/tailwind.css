@@ -19,7 +19,7 @@ body {
 
 @media screen and (max-width: 600px) {
      .home-title {
-        @apply text-8xl
+        @apply text-7xl
      }
      .home-text {
         @apply text-xl
@@ -53,8 +53,7 @@ body {
     }
 
     .header {
-        min-height: 100px;
-        @apply shadow-sm bg-gray-800 mt-2 mb-2
+        @apply shadow-sm bg-gray-800 mt-2
     }
 
     .navbar {
@@ -66,7 +65,6 @@ body {
         position: relative;
         text-align: center;
         justify-content: center;
-        transform: translateY(-20%);
         @apply flex flex-col pt-5 pb-5 items-center self-center
     }
 
@@ -85,7 +83,7 @@ body {
     }
 
     .home-title {
-        @apply font-bold text-9xl mb-10 text-center mt-24
+        @apply font-bold text-9xl mb-10 text-center mt-4
     }
 
     .home-title:hover {
