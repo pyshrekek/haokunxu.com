@@ -5,10 +5,10 @@
                 <NuxtLink to="/" class="home-btn">
                     <p>Home</p>
                 </NuxtLink>
-                <ul class="flex gap-4">
+                <!-- <ul class="flex gap-4">
                     <li><NuxtLink to="/skills" class="nav-btn">Skills</NuxtLink></li>
                     <li><NuxtLink to="/portfolio" class="nav-btn portfolio-btn">Portfolio</NuxtLink></li>
-                </ul>
+                </ul> -->
             </nav>
         </header>
 
@@ -27,13 +27,5 @@
         background-color: #a78bfa;
         font-size: 1.125rem/* 18px */;
         line-height: 1.75rem/* 28px */;
-    }
-
-    .router-link-exact-active.portfolio-btn {
-        background-color: #e879f9;
-    }
-
-    .router-link-exact-active.home-btn {
-        color: #a78bfa;
     }
 </style>
