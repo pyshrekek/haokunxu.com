@@ -4,7 +4,7 @@
             Haokun Xu
         </h1>
         <div class="home-subflex">
-            <p class="home-text text-left">Incoming freshman at
+            <p class="home-text text-left">Freshman at
             <p class="home-vandy">Vanderbilt University</p>
             <p class="home-subtext text-left"><a class="home-majors">Electrical and Computer Engineering +
                     Mathematics</a> </p>

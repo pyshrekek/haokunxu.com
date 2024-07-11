@@ -104,7 +104,7 @@ body {
 
     .home-vandy {
         color: #cfae70;
-        @apply text-left text-5xl
+        @apply text-left text-3xl
     }
 
     .home-majors {
